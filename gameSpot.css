@@ -1,0 +1,142 @@
+body{margin: 0%;
+    padding: 0%;
+    background-color: rgba(0,0,0,0.938)
+}
+
+.navbar{
+    background-color:transparent;
+    position: relative;
+    z-index: 4;
+    
+}
+
+.nav-link{font-size: 14px;    
+}
+
+.nav-link:hover{border: 2px solid white;}
+
+/* This makes the navbar transparent  */
+
+main{position: absolute;
+top: 0%;
+z-index: 0}
+
+/* This makes the navbar transparent  */
+
+/* This adjusts the margin-top of the cards  */
+.multi-cards{margin-top:120px; }
+/* This adjusts the margin-top of the cards  */
+
+
+/* This changes the color of the card  */
+
+.card-body-2{background-color:#0d0d0d}
+/* This changes the color of the card  */
+
+
+/*This specifies the position of the carousel indicator*/
+.carousel-control-prev, .carousel-control-next{width:10%;}
+
+.site-wrapper{height: 640px}
+
+.card, .list-group-item{background-color: rgba(0,0,0,0.721)
+    
+}
+
+.parallax{background-image: url("Stock/assassins_creed_2-1600x900.jpg");
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+height: 600px}
+
+
+/*
+@media only screen and (max-device-width:320px){
+    .site-wrapper{ height: 200px;
+           
+    }
+    .col-md-4{margin: 5% 0% ;
+        
+        
+    }
+    
+    .carousel-control-next, .carousel-control-prev{
+        display: none;
+    }
+    
+}*/
+
+
+/*
+.slidingHorizontal{
+   display: inline;
+    text-indent: 0px;
+    font-weight: bold;
+    
+    
+}
+
+.slidingHorizontal span:nth-child(){
+  animation-delay: 2.5s;
+    -ms-animation-delay: 2.5s;
+    -webkit-animation-delay: 2.5s;
+    
+}
+
+
+.slidingHorizontal span:nth-child(2){
+  animation-delay: 5s;
+    -ms-animation-delay:5s;
+    -webkit-animation-delay:5s;
+       
+}
+
+.slidingHorizontal span:nth-child(3){
+  animation-delay:7.5s;
+    -ms-animation-delay:7.5s;
+    -webkit-animation-delay:7.5s;
+       
+}
+
+.slidinghorizontal span {
+    animation: leftToRight 7.5s linear infinite 0s;
+    -ms-animation: leftToRight 7.5s linear infinite 0s;
+    -webkit-animation: leftToRight 7.5s linear infinite 0s;
+    color: #fff;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;   
+}
+
+/* animation */
+/*@-moz-keyframes leftToRight{
+    0% {opacity: 0;}  
+    5% {opacity: 0; -moz-transform: translatex(-50px);}
+    10% {opacity: 1; -moz-transform: translatex(0px);}
+    25%{opacity: 1; -moz-transform: translatex(0px);}
+    30%{opacity: 0; -moz-transform: translatex(50px);}
+    80%{opacity: 0;}
+    100%{opacity: 0;}
+}
+
+@webkit-keyframes leftToRight{
+    0% {opacity: 0;}  
+    5% {opacity: 0; -webkit-transform: translatex(-50px);}
+    10% {opacity: 1; -webkit-transform: translatex(0px);}
+    25%{opacity: 0; -webkit-transform: translatex(0px);}
+    30%{opacity: 0; -webkit-transform: translatex(50px);}
+    80%{opacity: 0;}
+    100%{opacity: 0;}
+      
+}
+
+@-moz-keyframes leftToRight{
+   0% {opacity: 0;}  
+    5% {opacity: 0; -webkit-transform: translatex(-50px);}
+    10% {opacity: 1; -webkit-transform: translatex(0px);}
+    25%{opacity: 1; -webkit-transform: translatex(0px);}
+    30%{opacity: 0; -webkit-transform: translatex(50px);}
+    80%{opacity: 0;}
+    100%{opacity: 0;}  
+    
+}*/*/
